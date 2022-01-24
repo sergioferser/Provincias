@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Coruña">
+        <item>Coruña</item>
+        <item>Ferrol</item>
+        <item>Santiago</item>
+        <item>Betanzos</item>
+
+    </string-array>
+    <string-array name="Lugo">
+        <item>Lugo</item>
+        <item>Monforte</item>
+        <item>Viveiro</item>
+        <item>Mondoñedo</item>
+
+    </string-array>
+    <string-array name="Ourense">
+        <item>Ourense</item>
+        <item>O Barco</item>
+        <item>Allariz</item>
+        <item>Verin</item>
+
+    </string-array>
+    <string-array name="Pontevedra">
+        <item>Vigo</item>
+        <item>Pontevedra</item>
+        <item>Ponteareas</item>
+        <item>Redondela</item>
+
+    </string-array>
+</resources>

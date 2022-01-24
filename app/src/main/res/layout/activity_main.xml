@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPINNER - Provincias"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/etAdd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Buscador provincias"
+        android:inputType="text"
+        android:completionThreshold="0"
+        />
+
+
+    <!--Datos capturados de "forma pseudodinamica"-->
+    <Spinner
+        android:id="@+id/spProvincias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:visibility="gone"/>
+    <Spinner
+        android:id="@+id/spMunicipios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
